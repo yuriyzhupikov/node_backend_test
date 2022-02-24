@@ -21,8 +21,8 @@ ___
 ### Запуск теста:
 1. Открыть два терминала
 2. Для удобства назвать: "server" и "client"
-3. Вкладка "server"  | ```npm run server```
-4. Вкладка "client"  | ```npm run client```
+3. Перейти на вкладку "server" и выполнить команду ```npm run server```
+4. Перейти на вкладку "client" и выполнить команду ```npm run client```
 
 ![](screen.png)
 ___
