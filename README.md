@@ -1,7 +1,7 @@
 # Backend test
-## Описание задачи: http://surl.li/blhnl
+### Описание задачи: http://surl.li/blhnl
 
-###Структура файлов проекта:
+### Структура файлов проекта:
 
 ````
 node_backend_test
