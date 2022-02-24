@@ -87,7 +87,7 @@ function startClient() {
             });
 
             requestServer.on('error', e => {
-                console.log('Сервер не доступен');
+                console.log('Перезапустите сервер');
             });
 
             // Отправка данных на сервер
