@@ -10,3 +10,7 @@
 ### 2. Для удобства назвать: "server" и "client"
 
 ![](screen.png)
+
+### 3. Выполнить запуск: 
+#### Вкладка "server"  | npm run server
+#### Вкладка "client"  | npm run client
