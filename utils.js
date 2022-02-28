@@ -17,10 +17,12 @@ function serverStatus () {
 function medianPings(pings) {
     let median = 0;
     let len = pings.length;
-    pings.sort((a, b) => a - b);
-    if (!pings.length) {
+    if (!len) {
         return 0;
-    } else if (len % 2) {
+    }
+    pings.sort((a, b) => a - b);
+
+    if (len % 2) {
         median = pings[Math.floor(len / 2)];
     } else {
         median = Math.round((pings[len / 2] + pings[len / 2 - 1])/ 2);
