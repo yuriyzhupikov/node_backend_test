@@ -41,7 +41,7 @@ function startServer() {
             console.log('Медианное время пинга:', medianPings(pings));
             console.log('========= Конец отчёта =========');
 
-            process.exit(1);
+            process.exit(0);
         });
     });
 }
